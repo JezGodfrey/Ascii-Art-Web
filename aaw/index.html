@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Ascii-Art-Web</title>
+    <!-- Ignore fake favicon.ico requests -->
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+  </head>
+  <body>
+    <h2>Ascii Converter</h2>
+    <p>This website transforms your text into ascii-art!
+      <br>Type your text into the box below, choose a style, then click submit.</p>
+    <form action="/ascii-art" method="post">
+      <label for="txt">Input text:</label><br>
+      <textarea rows="4" cols="50" name="txt"></textarea><br><br>
+      <label for="style">Style:</label><br>
+      Standard</standard><input type="radio" id="style" name="style" value="standard" checked><br>
+      Shadow<input type="radio" id="style" name="style" value="shadow"><br>
+      Thinkertoy<input type="radio" id="style" name="style" value="thinkertoy"><br><br>
+      <input type="submit", value="Submit">
+    </form>
+  </body>
+</html>
