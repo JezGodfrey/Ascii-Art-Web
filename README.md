@@ -29,4 +29,4 @@ Then visit `localhost:8080` on your device. On the main page, type your text int
 
 ## Authors
 
-This program was written by Jez Godfrey.
+This program was written by Jez Godfrey as part of the 01 Founders fellowship
