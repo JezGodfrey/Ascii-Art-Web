@@ -32,7 +32,7 @@ func GetFileLines(p string) []string {
 func AsciiArt(t string, s string) string {
 	// Checking for non-printable characters (bad request)
 	for _, v := range t {
-		if v < 32 || v == 127 {
+		if (v < 32 || v == 127) && v != 13 && v != 10 {
 			return "error"
 		}
 	}
